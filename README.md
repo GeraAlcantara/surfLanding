@@ -37,3 +37,22 @@ Bootstrap
 JavaScript
 <br>
 React JS
+
+<br>
+Nombre: Joaquin
+<br>
+Nacionalidad: Argentina.
+<br>
+Tecnologías conocidas:
+<br>
+HTML
+<br>
+CSS
+<br>
+node
+<br>
+JavaScript
+<br>
+React JS
+<br>
+Typescript
