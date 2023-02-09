@@ -37,3 +37,12 @@ Bootstrap
 JavaScript
 <br>
 React JS
+
+<br>
+Nombre: Marco Sarrió Ferrández
+<br>
+Nacionalidad: Española
+<br>
+Tecnologías conocidas:
+<br>
+HTML, CSS + SASS, Librerias CSS, JavaScript, ReactJS(básico), VueJS3, Vite
