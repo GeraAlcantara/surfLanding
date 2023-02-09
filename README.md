@@ -1,4 +1,5 @@
 # surfLanding
+
 Grupo de trabajo de Discord Matias Baldanza
 
 Nombre: Bruno.
@@ -20,7 +21,6 @@ Tecnologías conocidas:
 -MongoDB + Mongoose.
 <br>
 
-
 <br>
 Nombre: Martín Alba.
 <br>
@@ -37,3 +37,19 @@ Bootstrap
 JavaScript
 <br>
 React JS
+
+Nombre:
+<br>
+Matias Baldanza
+<br>
+Nacionalidad: Argentina
+<br>
+Tecnologías conocidas:
+<br>
+HTML
+<br>
+CSS + Bootstrap
+<br>
+JavaScript
+<br>
+Figma
