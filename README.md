@@ -46,3 +46,16 @@ Nacionalidad: Española
 Tecnologías conocidas:
 <br>
 HTML, CSS + SASS, Librerias CSS, JavaScript, ReactJS(básico), VueJS3, Vite
+
+<br>
+Nombre: Leandro Marin
+<br>
+Nacionalidad: Argentina.
+<br>
+Tecnologías conocidas:
+<br>
+HTML
+<br>
+CSS
+<br>
+Javascript
