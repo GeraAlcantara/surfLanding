@@ -38,6 +38,7 @@ JavaScript
 <br>
 React JS
 
+<<<<<<< HEAD
 Nombre:
 <br>
 Matias Baldanza
@@ -53,3 +54,13 @@ CSS + Bootstrap
 JavaScript
 <br>
 Figma
+=======
+<br>
+Nombre: Marco Sarrió Ferrández
+<br>
+Nacionalidad: Española
+<br>
+Tecnologías conocidas:
+<br>
+HTML, CSS + SASS, Librerias CSS, JavaScript, ReactJS(básico), VueJS3, Vite
+>>>>>>> 1ea3c9e99d9373d9420a3c4360c86a8a697a1c64
