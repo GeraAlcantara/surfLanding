@@ -37,3 +37,22 @@ Bootstrap
 JavaScript
 <br>
 React JS
+
+<br>
+Nombre: Jhonatan.
+<br>
+Nacionalidad: Peruana.
+<br>
+Tecnologías conocidas:
+<br>
+HTML
+<br>
+CSS + Tailwind
+<br>
+PHP vanilla
+<br>
+JavaScript
+<br>
+React JS
+<br>
+Express
