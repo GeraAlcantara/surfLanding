@@ -1,5 +1,5 @@
 # surfLanding
-Grupo de trabajo de Discord Matias Baldaza
+Grupo de trabajo de Discord Matias Baldanza
 
 Nombre: Bruno.
 <br>
@@ -13,9 +13,9 @@ Tecnologías conocidas:
 <br>
 -Javascript vanilla.
 <br>
--Node.js
+-Node.js.
 <br>
--Express.js
+-Express.js.
 <br>
 -MongoDB + Mongoose.
 <br>
