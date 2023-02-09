@@ -19,3 +19,21 @@ Tecnologías conocidas:
 <br>
 -MongoDB + Mongoose.
 <br>
+
+
+<br>
+Nombre: Martín Alba.
+<br>
+Nacionalidad: Argentina.
+<br>
+Tecnologías conocidas:
+<br>
+HTML
+<br>
+CSS + SASS
+<br>
+Bootstrap
+<br>
+JavaScript
+<br>
+React JS
