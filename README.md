@@ -1,7 +1,7 @@
 # surfLanding
 Grupo de trabajo de Discord Matias Baldanza
 
-Nombre: Bruno.
+Nombre: Joaquin.
 <br>
 Nacionalidad: Argentina.
 <br>
@@ -9,13 +9,13 @@ Tecnologías conocidas:
 <br>
 -HTML.
 <br>
--CSS + Bootstrap.
+-CSS.
 <br>
 -Javascript vanilla.
 <br>
--Node.js.
+-React
 <br>
--Express.js.
+-Node.
 <br>
 -MongoDB + Mongoose.
 <br>
