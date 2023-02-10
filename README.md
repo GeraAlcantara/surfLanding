@@ -62,3 +62,23 @@ HTML
 CSS
 <br>
 Javascript
+
+<br>
+Nombre: Martín Cosimano.
+<br>
+Nacionalidad: Argentina.
+<br>
+Tecnologías conocidas:
+<br>
+-HTML.
+<br>
+-CSS + Bootstrap.
+<br>
+-Javascript.
+<br>
+-Node.js.
+<br>
+-Express.js.
+<br>
+-MongoDB + Mongoose.
+<br>
