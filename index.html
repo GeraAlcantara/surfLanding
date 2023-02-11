@@ -4,19 +4,42 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <!-- Agregué la hoja de estilos y cambié el titulo de la página. -->
+    <link rel="stylesheet" href="style.css">
+    <title>Surf-Landing</title>
   </head>
   <body>
     <main>
       <header>
         <!-- navigation -->
-        <nav>nav
+        <div class="logo">
+          <a href="#">
+            <!-- <img src="" alt="Logo"> El logo podría ser un imagen clickeable, pero por ahora lo soluciono con text plano-->
+            RW
+          </a>
+        </div>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line short-line"></div>
+          <div class="line"></div>
+          <div class="line short-line"></div>
+        </div>
+        <nav class="nav-bar">
+          <ul class="nav-menu">
+            <li><a href="#Course" class="nav-item active"><span class="border-bot">Course</span></a></li>
+            <li><a href="#Tools" class="nav-item"><span class="border-bot">Tools</span></a></li>
+            <li><a href="#About" class="nav-item"><span class="border-bot">About us</span></a></li>
+            <li><a href="#News" class="nav-item"><span class="border-bot">News</span></a></li>
+            <li><a href="#Support" class="nav-item"><span class="border-bot">Support</span></a></li>
+          </ul>
         </nav>
+
         <!-- navigation end -->
-        <!-- Hero Banner -->
-        <div>hero</div>
-        <!-- Hero Banner end -->
       </header>
+      <!-- Hero Banner -->
+      <!-- Movi el div fuera del HEADER. -->
+      <div>hero</div>
+      <!-- Hero Banner end -->
       <!-- Add Section 1 -->
       <section>
         section 1
@@ -53,6 +76,6 @@
 
     </main>
     <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="main.js"></script>
   </body>
 </html>
