@@ -1,4 +1,5 @@
 # surfLanding
+
 Grupo de trabajo de Discord Matias Baldanza
 
 Referencia Grafica
@@ -22,7 +23,6 @@ Tecnologías conocidas:
 <br>
 -MongoDB + Mongoose.
 <br>
-
 
 <br>
 Nombre: Martín Alba.
@@ -81,4 +81,24 @@ Tecnologías conocidas:
 -Express.js.
 <br>
 -MongoDB + Mongoose.
+<br>
+
+<br>
+Nombre: Maximiliano Calderón.
+<br>
+Nacionalidad: Argentina- Viviendo en Dinamarca.
+<br>
+Tecnologías conocidas:
+<br>
+-HTML.
+<br>
+-CSS + Bootstrap, Tailwind CSS, Chacra Ui, Styled Components
+<br>
+-Javascript, React.js
+<br>
+-Node.js.
+<br>
+-Express.js.
+<br>
+-MongoDB + Mongoose, Supabase, Firebase
 <br>
