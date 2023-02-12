@@ -16,6 +16,24 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  /* Issue #24: Asignación de variables para la paleta de colores*/
+  --clr-primario-300: #C6E8EB;
+  --clr-primario-500: #72D5DC;
+  --clr-primario-700: #34C3CD;
+  --clr-primario-900: #00AFBB;
+
+  --clr-secundario-300: #86849E;
+  --clr-secundario-500: #304F4C;
+  --clr-sencudario-700: #1D426E;
+  --clr-secundario-900: #052D30;
+
+  --clr-neutro-300: #FFFFFF;
+  --clr-neutro-500: #C7C7C7;
+
+  --clr-transparencias: #00AFBB;
+  /* --------------------------------- */
+
 }
 
 a {
