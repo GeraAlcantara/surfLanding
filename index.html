@@ -5,18 +5,44 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Surf-Landing</title>
 </head>
 
 <body>
   <main>
     <header>
-      <!-- navigation -->
-      <nav>nav
-      </nav>
-      <!-- navigation end -->
       <!-- Hero Banner -->
       <div class="hero-banner">
+      <!-- Logo starts -->
+      <div class="header-flex">
+        <div class="logo">
+          <a href="#">
+            <!-- <img src="" alt="Logo"> El logo podría ser un imagen clickeable, pero por ahora lo soluciono con text plano-->RW
+          </a>
+        </div>
+        <!-- Logo ends -->
+        <!-- Hamburger menu starts -->
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line short-line"></div>
+          <div class="line"></div>
+          <div class="line short-line"></div>
+        </div>
+        <!-- Hamburger menu ends -->
+        <!-- navigation starts -->
+        <nav class="nav-bar">
+          <ul class="nav-menu">
+            <li><a href="#Course" class="nav-item active"><span class="border-bot">Course</span></a></li>
+            <li><a href="#Tools" class="nav-item"><span class="border-bot">Tools</span></a></li>
+            <li><a href="#About" class="nav-item"><span class="border-bot">About us</span></a></li>
+            <li><a href="#News" class="nav-item"><span class="border-bot">News</span></a></li>
+            <li><a href="#Support" class="nav-item"><span class="border-bot">Support</span></a></li>
+          </ul>
+        </nav>
+        <!-- navigation end -->
+      </div>
+      <!-- Hero Content start -->
         <div class="hero__content">
           <p class="hero__content__date">
             <span>next course starts</span>
@@ -24,6 +50,7 @@
           </p>
           <h1 class="hero__content__title">let's ride <br> a wave</h1>
         </div>
+              <!-- Hero Content ends -->
       </div>
       <!-- Hero Banner end -->
     </header>
@@ -62,8 +89,7 @@
 
 
   </main>
-  <div id="app"></div>
-  <script type="module" src="/main.js"></script>
+  <script type="module" src="main.js"></script>
 </body>
 
 </html>

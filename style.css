@@ -32,8 +32,14 @@
   --clr-neutro-500: #C7C7C7;
 
   --clr-transparencias: #00AFBB;
+  
+  --f-family-primaria: 'Poppins', "sans serif";
   /* --------------------------------- */
 
+}
+
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -41,21 +47,171 @@ body {
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
+
+a {
+  font-weight: 500;
+  color: var(--clr-secundario-500);
+  text-decoration: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  padding: 1em;
+  display: inline;
+}
+
+/* Cambios de estilos a los <li> y <a>*/
+
+li,a {
+  list-style: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  background-color: transparent;
+  color: var(--clr-secundario-500);
+  font-family: var(--f-family-primaria);
+  font-weight: 600;
+
+}
+
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 5em;
+}
+
+
+.logo>a {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--clr-secundario-900);
+}
+
+/* Menu hamburguesa */
+
+.hamburger {
+  display: none;
+}
+
+/* NAV BAR */
+
+.nav-bar ul {
+  display: flex;
+}
+
+.nav-bar ul li a {
+  display: block;
+  font-size: 1rem;
+  padding: 0.7rem 2rem;
+}
+
+
+.nav-item {
+position: relative;
+}
+
+.nav-item:hover {
+  color: var(--clr-primario-700);
+  transition: all 0.5s ease-out;
+}
+
+.border-bot:hover {
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid lightblue;
+}
+
+
+.nav-item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+/* Responsive del Nav-bar */
+
+@media only screen and (max-width: 900px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger .line {
+    width: 30px;
+    height: 3px;
+    background: var(--clr-secundario-900);
+    margin: 6px 0;
+  }
+
+  .hamburger .short-line {
+    width: 20px;
+  }
+
+  .nav-bar {
+    height: 0;
+    position: absolute;
+    top: 86px;
+    left: 0;
+    right: 0;
+    background-color: #F8F8F8;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+
+
+
+  .nav-bar.active {
+    min-height: calc(100vh - 86px);
+  }
+
+  .nav-bar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .nav-bar.active ul {
+    opacity: 1;
+  }
+}
+
+
+
 
 /* Issue #14 Add hero banner */
 .hero-banner {
   display: flex;
+  flex-direction: column;
   align-items: center;
   background-color: red;
   background-image: url('/public/img/hero.jpg');
   background-size: cover;
+
 }
 
 .hero__content {
   width: 80%;
   margin: auto;
+  font-weight: 600;
 }
 
 .hero__content__date {
@@ -70,7 +226,7 @@ body {
 }
 
 .hero__content__title {
-  font-size: 3.2em;
+  font-size: 4.5em;
   text-transform: capitalize;
   margin: 0;
   color: var(--clr-secundario-900);
@@ -78,8 +234,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .hero-banner {
-    height: 30vh;
-    /* background: green; */
+    height: 50vh;
   }
 }
 
@@ -99,7 +254,7 @@ body {
   }
 
   .hero__content__title {
-    font-size: 3.5em;
+    font-size: 4.5em;
   }
 }
 
