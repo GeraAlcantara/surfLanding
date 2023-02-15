@@ -10,7 +10,7 @@ Este proyecto de estudio se basa en el desarrollo de una landing page para una e
 
 ## Figma Proyect 
 
-El recurso fue realizado por **Julvertv** en Figma, y se puede encontrar en el siguiente link: [Cool resource 😎](https://www.figma.com/file/pMrGEOBODIqvSRhUdcVoQL/Surf?node-id=18%3A200&t=3ByxSYPZ7vQ34N9F-0)
+El recurso fue realizado por **@Julvertv** en Figma, y se puede encontrar en el siguiente link: [Cool resource 😎](https://www.figma.com/file/pMrGEOBODIqvSRhUdcVoQL/Surf?node-id=18%3A200&t=3ByxSYPZ7vQ34N9F-0)
 
 ## Integrantes
 
