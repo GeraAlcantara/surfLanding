@@ -1,98 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Surf-Landing</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <title>Surf-Landing</title>
-</head>
-
-<body>
-  <main>
-    <header>
-      <!-- Hero Banner -->
-      <div class="hero-banner">
-      <!-- Logo starts -->
-      <div class="header-flex">
-        <div class="logo">
-          <a href="#">
-            <!-- <img src="" alt="Logo"> El logo podría ser un imagen clickeable, pero por ahora lo soluciono con text plano-->RW
-          </a>
+  <body>
+    <main>
+      <header>
+        <!-- Hero Banner -->
+        <div class="hero-banner">
+          <!-- Logo starts -->
+          <div class="header-flex">
+            <div class="logo">
+              <a href="#">
+                <!-- <img src="" alt="Logo"> El logo podría ser un imagen clickeable, pero por ahora lo soluciono con text plano-->RW
+              </a>
+            </div>
+            <!-- Logo ends -->
+            <!-- Hamburger menu starts -->
+            <div class="hamburger">
+              <div class="line"></div>
+              <div class="line short-line"></div>
+              <div class="line"></div>
+              <div class="line short-line"></div>
+            </div>
+            <!-- Hamburger menu ends -->
+            <!-- navigation starts -->
+            <nav class="nav-bar">
+              <ul class="nav-menu">
+                <li>
+                  <a href="#Course" class="nav-item active"
+                    ><span class="border-bot">Course</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#Tools" class="nav-item"
+                    ><span class="border-bot">Tools</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#About" class="nav-item"
+                    ><span class="border-bot">About us</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#News" class="nav-item"
+                    ><span class="border-bot">News</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#Support" class="nav-item"
+                    ><span class="border-bot">Support</span></a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <!-- navigation end -->
+          </div>
+          <!-- Hero Content start -->
+          <div class="hero__content">
+            <p class="hero__content__date">
+              <span>next course starts</span>
+              <span class="hero__content__date-cyan">12 january 2023</span>
+            </p>
+            <h1 class="hero__content__title">let's ride <br />a wave</h1>
+          </div>
+          <!-- Hero Content ends -->
         </div>
-        <!-- Logo ends -->
-        <!-- Hamburger menu starts -->
-        <div class="hamburger">
-          <div class="line"></div>
-          <div class="line short-line"></div>
-          <div class="line"></div>
-          <div class="line short-line"></div>
+        <!-- Hero Banner end -->
+      </header>
+      <!-- Add Section 1 -->
+      <section>section 1</section>
+      <!-- Add Section 1 -->
+
+      <!-- Add Section 2 Intructor -->
+      <section>section 2</section>
+      <!-- Add End Section 2 -->
+
+      <!-- Add Section 3 popular coursers-->
+      <section>section 3</section>
+      <!-- Add End Section 3 -->
+
+      <!-- Add Section 4 Costumer say  -->
+      <section>section 4</section>
+      <!-- Add End Section 4 -->
+      <footer class="footer">
+        <!-- Add Footer -->
+
+        <div class="footer__content">
+          <div class="footer__main">
+            <h4 class="footer__main-logo">RW</h4>
+            <p class="footer__main-text">
+              We create a fun, relaxed and supportive enviroment where we teach
+              the art od surfing including tecnicall skills
+            </p>
+          </div>
+          <div class="footer__subs">
+            <h3 class="footer__subs-title">Newsletter Subscription</h3>
+            <form class="footer__subs-form" action="">
+              <input
+                type="email"
+                class="footer__subs-form-input"
+                placeholder="Your email here"
+              />
+              <input
+                type="submit"
+                class="footer__subs-form-submit"
+                value="Suscribe"
+              />
+            </form>
+          </div>
         </div>
-        <!-- Hamburger menu ends -->
-        <!-- navigation starts -->
-        <nav class="nav-bar">
-          <ul class="nav-menu">
-            <li><a href="#Course" class="nav-item active"><span class="border-bot">Course</span></a></li>
-            <li><a href="#Tools" class="nav-item"><span class="border-bot">Tools</span></a></li>
-            <li><a href="#About" class="nav-item"><span class="border-bot">About us</span></a></li>
-            <li><a href="#News" class="nav-item"><span class="border-bot">News</span></a></li>
-            <li><a href="#Support" class="nav-item"><span class="border-bot">Support</span></a></li>
-          </ul>
-        </nav>
-        <!-- navigation end -->
-      </div>
-      <!-- Hero Content start -->
-        <div class="hero__content">
-          <p class="hero__content__date">
-            <span>next course starts</span>
-            <span class="hero__content__date-cyan">12 january 2023</span>
-          </p>
-          <h1 class="hero__content__title">let's ride <br>a wave</h1>
-        </div>
-              <!-- Hero Content ends -->
-      </div>
-      <!-- Hero Banner end -->
-    </header>
-    <!-- Add Section 1 -->
-    <section>
-      section 1
-    </section>
-    <!-- Add Section 1 -->
-
-    <!-- Add Section 2 Intructor -->
-    <section>
-      section 2
-    </section>
-    <!-- Add End Section 2 -->
-
-    <!-- Add Section 3 popular coursers-->
-    <section>
-      section 3
-    </section>
-    <!-- Add End Section 3 -->
-
-    <!-- Add Section 4 Costumer say  -->
-    <section>
-      section 4
-    </section>
-    <!-- Add End Section 4 -->
-    <footer>
-      <!-- Add Footer -->
-      <div>footer</div>
-      <!-- Add Footer end -->
-      <!-- Atrributation  Attribution footer -->
-      <div>attribution</div>
-      <!-- Atrributation  Attribution footer end -->
-
-    </footer>
-
-
-  </main>
-  <script type="module" src="main.js"></script>
-</body>
-
+        <!-- Add Footer end -->
+        <!-- Atrributation  Attribution footer -->
+        <div>attribution</div>
+        <!-- Atrributation  Attribution footer end -->
+      </footer>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
 </html>
