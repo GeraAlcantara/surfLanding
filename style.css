@@ -227,6 +227,7 @@ header {
   height: auto;
   background: var(--clr-primario-500);
   color: var(--clr-neutro-300);
+  font-family: var(--f-family-primaria);
 }
 .footer__content {
   display: flex;
