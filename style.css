@@ -378,3 +378,247 @@ header {
   }
 }
 /* ------------------------- */
+
+/* Issue #16: Add Section 1 */
+
+.s1__container {
+  margin: 0 auto;
+  display: flex;
+  width: 80vw;
+  background-color: #f7f7f7;
+  justify-content: center;
+  font-family: var(--f-family-primaria);
+}
+
+.s1__img {
+  display: flex;
+  width: 538px;
+  flex-shrink: inherit;
+  background-image: url(./public/img/seccion1/photo-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.s1__ticontainer {
+  display: flex;
+  height: 750px;
+  max-width: 538px;
+  align-items: center;
+}
+
+.s1__textinfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 50vw;
+  margin: 0 3vw;
+  gap: 40px;
+}
+
+.s1__textinfo h4 {
+  color: var(--clr-primario-500);
+  margin: 0;
+}
+
+.s1__textinfo h2 {
+  color: var(--clr-secundario-900);
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0;
+}
+
+.s1__textinfo p {
+  color: var(--clr-secundario-300);
+  font-family: Inter, sans-serif;
+  margin: 0;
+}
+
+/* Book Now button */
+.s1__f-btn {
+  background-color: var(--clr-primario-700);
+  border: 1px solid var(--clr-primario-900);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px 32px;
+  font-family: var(--f-family-primaria);
+  max-width: fit-content;
+}
+
+.s1__f-btn:hover{
+  background-color: var(--clr-primario-500);
+  border: 1px solid var(--clr-primario-900);
+}
+
+.s1__f-btn:focus{
+  background-color: var(--clr-primario-700);
+  border: 3px solid var(--clr-primario-900);
+}
+
+.s1__f-btn:disabled {
+  background-color: var(--clr-neutro-300);
+  border: 1px solid var(--clr-neutro-500);
+}
+
+.s1__s-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.s1__sg-btn--arrows {
+  display: inherit;
+  margin-right: 3vw;
+}
+
+/* Arrow Buttons */
+.s1__sg-btn--arrows button{
+  border: 1px solid var(--clr-primario-900);
+  background-color: var(--clr-primario-700);
+  padding: 10px 20px;
+}
+
+.s1__sg-btn--arrows button:hover{
+  border: 1px solid var(--clr-primario-900);
+  background-color: var(--clr-primario-500);
+}
+
+.s1__sg-btn--arrows button:focus{
+  background-color: var(--clr-primario-700);
+  border: 3px solid var(--clr-primario-900);
+}
+
+.s1__sg-btn--arrows button:disabled {
+  background-color: var(--clr-neutro-300);
+  border: 1px solid var(--clr-neutro-500);
+}
+
+/* Number Buttons */
+.s1__sg-btn--numbers button{
+  background: none;
+  color: var(--clr-neutro-500);
+  border: none;
+  font-size: 16px;
+  font-family: var(--f-family-primaria);
+  font-weight: 700;
+}
+
+.s1__sg-btn--numbers button:first-child {
+  color: var(--clr-primario-700);
+}
+
+@media screen and (max-width: 992px) {
+  .s1__container {
+    width: 100vw;
+    justify-content: space-evenly;
+  }
+
+  .s1__ticontainer {
+    height: 500px;
+    min-width: auto;
+  }
+
+  .s1__img {
+    display: flex;
+    width: 50vw;
+  }
+
+  .s1__textinfo {
+    max-width: 50vw;
+    margin: 0 2vw;
+    gap: 10px;
+  }
+
+  .s1__sg-btn--arrows {
+    margin-right: 2vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .s1__container {
+    width: 100vw;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .s1__ticontainer {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .s1__img {
+    display: flex;
+    width: 100vw;
+    height: 45vh;
+  }
+
+  .s1__textinfo {
+    height: 45vh;
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 90vw;
+    justify-content: space-evenly;
+  }
+
+  .s1__textinfo h4 {
+    font-size: 1rem;
+  }
+
+  .s1__textinfo h2 {
+    font-size: 2rem;
+  }
+
+  .s1__textinfo p {
+    font-size: 1.05rem;
+  }
+
+  .s1__f-btn {
+    font-size: 18px;
+  }
+
+  .s1__s-btn {
+    justify-content: space-between;
+  }
+
+  .s1__sg-btn--arrows button {
+    padding: 10px 25px;
+  }
+
+  .s1__sg-btn--numbers button{
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .s1__textinfo h4 {
+    font-size: 0.8rem;
+  }
+
+  .s1__textinfo h2 {
+    font-size: 1.3rem;
+  }
+
+  .s1__textinfo p {
+    font-size: 0.8rem;
+  }
+
+  .s1__f-btn {
+    font-size: 13px;
+  }
+
+  .s1__sg-btn--arrows button {
+    padding: 8px 18px;
+  }
+
+  .s1__sg-btn--numbers button{
+    font-size: 1rem;
+  }
+}
+
+/* --------------------------------- */
