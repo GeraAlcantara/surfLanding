@@ -394,10 +394,12 @@ header {
   display: flex;
   width: 538px;
   flex-shrink: inherit;
-  background-image: url(img/seccion1/photo-1.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  
+}
+.s1__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .s1__ticontainer {
