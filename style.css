@@ -197,7 +197,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url('/public/img/hero.jpg');
+  background-image: url('/img/hero.jpg');
   background-size: cover;
 
 }
@@ -394,7 +394,7 @@ header {
   display: flex;
   width: 538px;
   flex-shrink: inherit;
-  background-image: url(./public/img/seccion1/photo-1.jpg);
+  background-image: url(./img/seccion1/photo-1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
