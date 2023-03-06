@@ -444,23 +444,31 @@ header {
   font-weight: 500;
   padding: 15px 32px;
   font-family: var(--f-family-primaria);
-  max-width: fit-content;
+  align-self: flex-start;
+  transition: scale 0.3s ease-out;
+  cursor: pointer;
 }
 
 .s1__f-btn:hover{
   background-color: var(--clr-primario-500);
   border: 1px solid var(--clr-primario-900);
+  transform: scale(1.03);
 }
 
 .s1__f-btn:focus{
   background-color: var(--clr-primario-700);
-  border: 3px solid var(--clr-primario-900);
+  outline: 1px solid var(--clr-primario-900);
 }
+.s1__f-btn:active{
+  transform: scale(0.98);
+}
+
 
 .s1__f-btn:disabled {
   background-color: var(--clr-neutro-300);
-  border: 1px solid var(--clr-neutro-500);
+  
 }
+
 
 .s1__s-btn {
   display: flex;
@@ -478,16 +486,21 @@ header {
   border: 1px solid var(--clr-primario-900);
   background-color: var(--clr-primario-700);
   padding: 10px 20px;
+  transition: scale 0.3s ease-out;
 }
 
 .s1__sg-btn--arrows button:hover{
-  border: 1px solid var(--clr-primario-900);
+  
   background-color: var(--clr-primario-500);
+  transform: scale(1.03);
 }
 
 .s1__sg-btn--arrows button:focus{
   background-color: var(--clr-primario-700);
-  border: 3px solid var(--clr-primario-900);
+  outline: 1px solid var(--clr-primario-900);
+}
+.s1__sg-btn--arrows button:active{
+  transform: scale(0.98);
 }
 
 .s1__sg-btn--arrows button:disabled {
@@ -621,6 +634,66 @@ header {
   .s1__sg-btn--numbers button{
     font-size: 1rem;
   }
+}
+ .attribution {
+  width: 100%;
+  background-color: var(--clr-primario-700);
+  display: flex;
+  justify-content: center;
+}
+
+ .attribution__title {
+  font-size: 1rem;
+  color: white;
+}
+.attribution__links{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.attribution__links a {
+  text-decoration: none;
+}
+.attribution__link {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: var(--clr-primario-500);
+  border-radius: 50%;
+  color: white;
+  padding: 0.725rem;
+  box-sizing: border-box;
+}
+.attribution__link:hover {
+  background-color: var(--clr-primario-900);
+
+}
+.attribution--wrapper {
+  background-color: unset;
+  width: 100%;
+  max-width: 80vw;
+  margin: 0, auto;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0, auto;
+}
+
+.attribution__link > svg {
+ width: 32px;
+ height: 32px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .attribution--wrapper {
+    flex-flow: column;
+    margin-bottom: 2rem;
+  }
+
 }
 
 /* --------------------------------- */
