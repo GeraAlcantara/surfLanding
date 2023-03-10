@@ -788,3 +788,282 @@ header {
 }
 
 /* --------------------------------- */
+
+/* Issue #17: Add Instructor Courses */
+
+.is {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1077px;
+  height: 989px;
+  color: #052D30;
+  margin: 134px auto;
+}
+
+.is__titles {
+  display: flex;
+  width: 1077px;
+  height: 173px;
+}
+
+.is__titles-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 13px 75px 4px 74px;
+  gap: 10px;
+  width: 538px;
+}
+
+.is__titles h2 {
+  font-size: 70px;
+  font-family: Poppins;
+  font-weight: 500;
+  /* width: 389px; */
+  margin: 0;
+  /* height: 156px; */
+  line-height: 78px;
+  letter-spacing: -0.06em;
+}
+
+.is__titles-description {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 38px 75px 95px 0px;
+  gap: 19px;
+  width: 538px;
+}
+
+.is__titles-description--rcont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 9px 0px 0px;
+  gap: 10px;
+  width: 56px;
+  height: 11px;
+}
+
+.is__titles-description--rcont--rectangle {
+  width: 56px;
+  height: 2px;
+  background-color: var(--clr-primario-700);
+}
+
+.is__titles-description p {
+  /* width: 226px;
+  height: 40px; */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  color: var(--clr-primario-700);
+  margin: 0;
+}
+
+.is__ins {
+  width: 1077px;
+  height: 816px;
+  display: flex;
+}
+
+.is__ins-card {
+  width: 538px;
+  height: 816px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.is__ins-card--inner {
+  width: 389px;
+  height: 776px;
+  margin: auto;
+  background-color: #FAFAFA;
+  filter: drop-shadow(-10px 10px 50px rgba(0, 0, 0, 0.25));
+}
+
+.is__ins-card--inner-image {
+  width: 389px;
+  height: 512px;
+}
+
+.is__ins-card:first-child .is__ins-card--inner .is__ins-card--inner-image {
+  background-image: url(./public/img/instructors/ins-1.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.is__ins-card:last-child .is__ins-card--inner .is__ins-card--inner-image {
+  background-image: url(./public/img/instructors/ins-2.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.is__ins-card--inner-text {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 389px;
+  height: 256px;
+}
+
+.is__ins-card--inner-text--box {
+  width: 321px;
+  height: 196px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 27px;
+  margin: 0 auto;
+}
+
+.is__ins-card--inner-text--box h4 {
+  width: 231px;
+  height: 91px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 46px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  margin: 0;
+}
+
+.is__ins-card--inner-text--box p {
+  width: 321px;
+  height: 26px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 26px;
+  letter-spacing: -0.03em;
+  color: #060606;
+  margin: 0;
+}
+
+.is__ins-card--inner-text--box h6 {
+  width: 177px;
+  height: 25px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 25px;
+  letter-spacing: -0.04em;
+  color: #454545;
+  margin: 0;
+}
+
+.is__ins-card:first-child .is__ins-card--inner {
+  margin-top: 40px;
+}
+
+.is__ins-card--inner-rectangle {
+  width: 389px;
+  height: 8px;
+  background-color: var(--clr-primario-700);
+}
+
+.is__ins-social-icons {
+  position: absolute;
+  left: 62.21%;
+  right: 6.94%;
+  top: 63.92%;
+  bottom: 31.7%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 9px;
+  width: 120px;
+  height: 34px;
+}
+
+.is__ins-social-icons--icon {
+  width: 34px;
+  height: 34px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.is__ins-social-icons--icon:nth-child(1) {
+  background-color: #1D426E;
+}
+
+.is__ins-social-icons--icon:nth-child(2) {
+  background-color: #1DA1F2;
+  ;
+}
+
+.is__ins-social-icons--icon:nth-child(3) {
+  background-color: #F8F8F8;
+}
+
+@media screen and (max-width: 1024px) {
+  .is {
+    width: 100vw;
+  }
+
+  .is__titles {
+    width: 100vw;
+  }
+
+  .is__ins {
+    width: 100vw;
+  }
+
+  .is__ins-card {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .is {
+    width: 100vw;
+    height: auto;
+    margin: 20px auto;
+  }
+
+  .is__titles {
+    flex-direction: column;
+    height: auto;
+    width: 389px;
+  }
+
+  .is__titles-title {
+    width: fit-content;
+    padding: 0;
+  }
+
+  .is__titles-description {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px 0 0 0;
+  }
+
+  .is__ins {
+    width: 100vw;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .is__ins-card {
+    width: fit-content;
+    height: auto;
+  }
+
+  .is__ins-card:first-child .is__ins-card--inner {
+    margin-bottom: 60px;
+  }
+}
+
+/* --------------------------------- */
