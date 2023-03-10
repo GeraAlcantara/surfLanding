@@ -892,13 +892,13 @@ header {
 }
 
 .is__ins-card:first-child .is__ins-card--inner .is__ins-card--inner-image {
-  background-image: url(./public/img/instructors/ins-1.webp);
+  background-image: url("/img/instructors/ins-1.webp");
   background-size: cover;
   background-position: center;
 }
 
 .is__ins-card:last-child .is__ins-card--inner .is__ins-card--inner-image {
-  background-image: url(./public/img/instructors/ins-2.webp);
+  background-image: url("/img/instructors/ins-2.webp");
   background-size: cover;
   background-position: center;
 }
