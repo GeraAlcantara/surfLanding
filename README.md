@@ -22,6 +22,7 @@ El recurso fue realizado por **@Julvertv** en Figma, y se puede encontrar en el 
 | Leandro Marin          	| Argentina                	| HTML, Css, JS                                                                                                                 	|
 | Martín Cosimano        	| Argentina                	| HTML, Css + Bootstrap, JS/Node(Express), MongoDB                                                                              	|
 | Maximiliano Calderón   	| Argentina (en Dinamarca) 	| HTML, Css + Bootstrap + Tailwind Css + Chacra UI, Styled Components, Js/Node(Express), ReactJS, MongoDB + Supabase + Firebase 	|
+| Julver T.V.      	        | Perú 	                    | Figma, HTML, Css                                                                                                                  |
 
 
 
