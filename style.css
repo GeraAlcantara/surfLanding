@@ -1067,3 +1067,198 @@ header {
 }
 
 /* --------------------------------- */
+
+/* Issue #17: Add Instructor Courses */
+.pc_section {
+  width: 100%;
+  max-width: 1077px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 74px;
+}
+
+.pc_nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.pc_ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  padding: 0;
+  list-style: none;
+}
+.pc_ul > li > a {
+  font-weight: 400;
+  line-height: 20px;
+  color: var(--clr-secundario-500)
+}
+
+.pc_ul > li > a:hover {
+  color: var(--clr-primario-700);
+  border-bottom: 1px solid var(--clr-primario-700);
+}
+
+.pc__title {
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 78px;
+  color: var(--clr-secundario-900);
+  max-width: 426px;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.pc__header {
+  display: flex;
+  gap: 113px;
+  align-items: center;
+}
+
+.pc__cardList {
+  display: grid;
+  grid-template-columns: repeat(2, 426px);
+  grid-template-rows: repeat(1, 500px);
+  justify-content: space-around;
+  gap: 30px;
+
+}
+
+.pc__cardList__card {
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pc__cardList__card img {
+  max-width: 426px;
+  height: 500px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.pc__card__header{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.pc__card__header{
+  z-index: 1;
+  position: relative;
+  margin-top: 45.5px;
+}
+.pc__card__header > span {
+  font-weight: 500;
+  font-size: 25px;
+  font-weight: 25px;
+  color: white;
+  border-left: 5px solid white;
+  padding-left: 24px;
+}
+.pc__cardList__card_btn{
+  background-color: var(--clr-primario-700);
+  padding: 15px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  margin-right: 32px;
+}
+.pc__card_body{
+  z-index: 1;
+  position: relative;
+  padding: 0 32px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+}
+.pc__cardList__card_btn:hover{
+  background-color: var(--clr-primario-900);
+  cursor: pointer;
+
+}
+
+  .pc__cardList__card:nth-child(even){
+    margin-top: 100px;
+  }
+
+.pc__card__see_more_btn {
+  background-color: var(--clr-primario-700);
+  padding: 20px 32px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  margin-right: 32px;
+  margin-bottom: 32px;
+  display: inline-flex;
+  max-width: 184px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.pc__card__see_more_btn img {
+  margin-left: 10px;
+  width: 20;
+  height: 20;
+  color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+  .pc_ul {
+    gap:20px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .pc__header {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .pc__header h2 {
+    text-align: center;
+  }
+  .pc__cardList__card {
+    margin-inline-start: 20px;
+    margin-inline-end: 20px;
+  }
+
+  .pc__cardList__card:nth-child(even){
+    margin-top: 0px;
+  }
+
+
+  .pc__cardList {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 500px);
+  }
+  .pc__cardList__card img {
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+}
+
+/* --------------------------------- */
