@@ -10,152 +10,178 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.scss" />
     <title>Surf-Landing</title>
   </head>
 
   <body>
-    <main>
-      <header>
-        <!-- Hero Banner -->
-        <div class="hero-banner">
-          <!-- Logo starts -->
-          <div class="header-flex">
-            <div class="logo">
-              <a href="#">
-                <!-- <img src="" alt="Logo"> El logo podría ser un imagen clickeable, pero por ahora lo soluciono con text plano-->RW
-              </a>
-            </div>
-            <!-- Logo ends -->
-            <!-- Hamburger menu starts -->
-            <button class="hamburger">
-              <div class="line"></div>
-              <div class="line short-line"></div>
-              <div class="line"></div>
-              <div class="line short-line"></div>
-            </button>
-            <!-- Hamburger menu ends -->
-            <!-- navigation starts -->
-            <nav class="nav-bar">
-              <ul class="nav-menu">
-                <li>
-                  <a href="#Course" class="nav-item"
-                    ><span class="border-bot">Course</span></a
-                  >
-                </li>
-                <li>
-                  <a href="#Tools" class="nav-item"
-                    ><span class="border-bot">Tools</span></a
-                  >
-                </li>
-                <li>
-                  <a href="#About" class="nav-item"
-                    ><span class="border-bot">About us</span></a
-                  >
-                </li>
-                <li>
-                  <a href="#News" class="nav-item"
-                    ><span class="border-bot">News</span></a
-                  >
-                </li>
-                <li>
-                  <a href="#Support" class="nav-item"
-                    ><span class="border-bot">Support</span></a
-                  >
-                </li>
-              </ul>
-            </nav>
-            <!-- navigation end -->
+    <header>
+      <!-- Hero Banner -->
+      <div class="hero-banner">
+        <!-- Logo starts -->
+        <div class="header-flex">
+          <div class="logo">
+            <a href="#">
+              <!-- <img src="" alt="Logo"> El logo podría ser un imagen clickeable, pero por ahora lo soluciono con text plano-->RW
+            </a>
           </div>
-          <!-- Hero Content start -->
-          <div class="hero__content">
-            <p class="hero__content__date">
-              <span>next course starts</span>
-              <span class="hero__content__date-cyan">12 january 2023</span>
-            </p>
-            <h1 class="hero__content__title">let's ride <br />a wave</h1>
-          </div>
-          <!-- Hero Content ends -->
+          <!-- Logo ends -->
+          <!-- Hamburger menu starts -->
+          <button class="hamburger">
+            <div class="line"></div>
+            <div class="line short-line"></div>
+            <div class="line"></div>
+            <div class="line short-line"></div>
+          </button>
+          <!-- Hamburger menu ends -->
+          <!-- MobileMenu nav start -->
+          <nav id="mobileMenu" class="mobileMenu">
+            <ul id="navList" class="mobileMenu__wrapper">
+              <li>
+                <a href="#Course" class="nav-item"
+                  ><span class="border-bot">Course</span></a
+                >
+              </li>
+              <li>
+                <a href="#Tools" class="nav-item"
+                  ><span class="border-bot">Tools</span></a
+                >
+              </li>
+              <li>
+                <a href="#About" class="nav-item"
+                  ><span class="border-bot">About us</span></a
+                >
+              </li>
+              <li>
+                <a href="#News" class="nav-item"
+                  ><span class="border-bot">News</span></a
+                >
+              </li>
+              <li>
+                <a href="#Support" class="nav-item"
+                  ><span class="border-bot">Support</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+          <!-- MobileMenu nav end -->
+          <!-- navigation starts -->
+          <nav class="nav-bar">
+            <ul class="nav-menu">
+              <li>
+                <a href="#Course" class="nav-item"
+                  ><span class="border-bot">Course</span></a
+                >
+              </li>
+              <li>
+                <a href="#Tools" class="nav-item"
+                  ><span class="border-bot">Tools</span></a
+                >
+              </li>
+              <li>
+                <a href="#About" class="nav-item"
+                  ><span class="border-bot">About us</span></a
+                >
+              </li>
+              <li>
+                <a href="#News" class="nav-item"
+                  ><span class="border-bot">News</span></a
+                >
+              </li>
+              <li>
+                <a href="#Support" class="nav-item"
+                  ><span class="border-bot">Support</span></a
+                >
+              </li>
+            </ul>
+          </nav>
+          <!-- navigation end -->
         </div>
-        <!-- Hero Banner end -->
-      </header>
-      <!-- Add Section 1 -->
-      <section class="s1__container">
+        <!-- Hero Content start -->
+        <div class="hero__content">
+          <p class="hero__content__date">
+            <span>next course starts</span>
+            <span class="hero__content__date-cyan">12 january 2023</span>
+          </p>
+          <h1>let's ride <br />a wave</h1>
+        </div>
+        <!-- Hero Content ends -->
+      </div>
+      <!-- Hero Banner end -->
+    </header>
+    <!-- Add Section 1 -->
+    <main class="container">
+      <section class="s1__container mt-standard">
         <div class="s1__img">
           <img src="img/seccion1/photo-1.jpg" alt="" />
         </div>
 
-        <div class="s1__ticontainer">
-          <div class="s1__textinfo">
-            <h4>LEVEL 1</h4>
-            <h2>Best Beaches On The Coast</h2>
-            <p>
-              We create a fun, relaxed and supportive environment where we teach
-              the art of surfing including technical skills.
-            </p>
+        <div class="s1__textinfo">
+          <span class="txtCardSmall">LEVEL 1</span>
+          <h2>Best Beaches On The Coast</h2>
+          <p class="txtInfo">
+            We create a fun, relaxed and supportive environment where we teach
+            the art of surfing including technical skills.
+          </p>
 
-            <button class="s1__f-btn">BOOK NOW</button>
+          <button class="CTAbtn">BOOK NOW</button>
 
-            <div class="s1__s-btn">
-              <div class="s1__sg-btn--arrows">
-                <button disabled>
-                  <svg
-                    width="31"
-                    height="30"
-                    viewBox="0 0 31 30"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M5.47956 14H26.3761V16H5.47956V14Z"
-                      fill="#C7C7C7"
-                    />
-                    <path
-                      d="M14.168 25L4.3761 15.1427L5.78093 13.7285L15.5728 23.5858L14.168 25Z"
-                      fill="#C7C7C7"
-                    />
-                    <path
-                      d="M15.851 6.41421L5.78417 16.5483L4.37934 15.1341L14.4462 5L15.851 6.41421Z"
-                      fill="#C7C7C7"
-                    />
-                  </svg>
-                </button>
-                <button>
-                  <svg
-                    width="31"
-                    height="30"
-                    viewBox="0 0 31 30"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <rect
-                      x="4.74988"
-                      y="14"
-                      width="19.9662"
-                      height="2"
-                      fill="white"
-                    />
-                    <rect
-                      width="13.9286"
-                      height="1.99831"
-                      transform="matrix(0.706509 0.707704 -0.706509 0.707704 16.9092 5)"
-                      fill="white"
-                    />
-                    <rect
-                      width="14.3197"
-                      height="1.99831"
-                      transform="matrix(0.706509 -0.707704 0.706509 0.707704 15.2178 23.5858)"
-                      fill="white"
-                    />
-                  </svg>
-                </button>
-              </div>
+          <div class="pagination">
+            <div class="pagination__nav__arrows">
+              <button class="btnPaginationArrows" disabled>
+                <svg
+                  width="31"
+                  height="30"
+                  viewBox="0 0 31 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M5.47956 14H26.3761V16H5.47956V14Z" fill="#C7C7C7" />
+                  <path
+                    d="M14.168 25L4.3761 15.1427L5.78093 13.7285L15.5728 23.5858L14.168 25Z"
+                    fill="#C7C7C7"
+                  />
+                  <path
+                    d="M15.851 6.41421L5.78417 16.5483L4.37934 15.1341L14.4462 5L15.851 6.41421Z"
+                    fill="#C7C7C7"
+                  />
+                </svg>
+              </button>
+              <button class="btnPaginationArrows">
+                <svg
+                  width="31"
+                  height="30"
+                  viewBox="0 0 31 30"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect
+                    x="4.74988"
+                    y="14"
+                    width="19.9662"
+                    height="2"
+                    fill="white"
+                  />
+                  <rect
+                    width="13.9286"
+                    height="1.99831"
+                    transform="matrix(0.706509 0.707704 -0.706509 0.707704 16.9092 5)"
+                    fill="white"
+                  />
+                  <rect
+                    width="14.3197"
+                    height="1.99831"
+                    transform="matrix(0.706509 -0.707704 0.706509 0.707704 15.2178 23.5858)"
+                    fill="white"
+                  />
+                </svg>
+              </button>
+            </div>
 
-              <div class="s1__sg-btn--numbers">
-                <button>01</button>
-                <button>02</button>
-                <button>03</button>
-              </div>
+            <div class="pagination__nav__pagesnum">
+              <button class="btnPageNum btnPageNum--active">01</button>
+              <button class="btnPageNum">02</button>
+              <button class="btnPageNum">03</button>
             </div>
           </div>
         </div>
@@ -163,17 +189,22 @@
       <!-- Add Section 1 -->
 
       <!-- Add Section 2 Intructor -->
-      <section class="is">
-        <div class="is__titles">
-          <div class="is__titles-title">
-            <h2>Instructor <br> Courses</h2>
-          </div>
-          <div class="is__titles-description">
-            <div class="is__titles-description--rcont">
-              <div class="is__titles-description--rcont--rectangle"></div>
+      <section class="mt-standard">
+        <div class="px-standar">
+          <div class="headerTitles">
+            <h2>
+              Instructor <br />
+              Courses
+            </h2>
+  
+            <div class="headerTitles__description">
+              <div class="headerTitles__description--divider"></div>
+              <p class="headerTitles__description--txt">
+                courses to souit your skill, ability and passion
+              </p>
             </div>
-            <p>COURSES TO SOUIT YOUR <br> SKILL, ABILITY AND PASSION</p>
           </div>
+
         </div>
         <div class="is__ins">
           <div class="is__ins-card">
@@ -181,27 +212,66 @@
               <div class="is__ins-card--inner-image"></div>
               <div class="is__ins-social-icons">
                 <div class="is__ins-social-icons--icon">
-                  <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.4345 11.165L10.9854 7.57282H7.53884V5.24272C7.53884 4.25995 8.02039 3.30097 9.56408 3.30097H11.1311V0.242718C11.1311 0.242718 9.70898 0 8.34927 0C5.51068 0 3.65534 1.72039 3.65534 4.83495V7.57282H0.5V11.165H3.65534V19.849C4.94201 20.0503 6.25216 20.0503 7.53884 19.849V11.165H10.4345Z" fill="white"/>
-                  </svg>            
-                </div>
-                <div class="is__ins-social-icons--icon">
-                  <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.7896 16.251C14.3368 16.251 18.4648 9.99824 18.4648 4.57584C18.4648 4.39824 18.4648 4.22144 18.4528 4.04544C19.2559 3.46457 19.9491 2.74534 20.5 1.92144C19.7512 2.25344 18.9567 2.47107 18.1432 2.56704C18.9998 2.05428 19.641 1.24769 19.9472 0.29744C19.1417 0.775447 18.2605 1.1123 17.3416 1.29344C16.7229 0.635588 15.9047 0.199975 15.0135 0.0540106C14.1223 -0.0919535 13.2078 0.0598691 12.4116 0.485985C11.6154 0.9121 10.9819 1.58875 10.609 2.41123C10.2361 3.23371 10.1446 4.15616 10.3488 5.03584C8.71741 4.95401 7.12146 4.53003 5.66455 3.79144C4.20763 3.05286 2.9223 2.01616 1.892 0.74864C1.36727 1.65197 1.20656 2.72133 1.44258 3.73899C1.67861 4.75665 2.29362 5.6461 3.1624 6.22624C2.50936 6.20711 1.87054 6.03094 1.3 5.71264V5.76464C1.30026 6.71202 1.62821 7.63014 2.22823 8.36328C2.82824 9.09642 3.66338 9.59945 4.592 9.78704C3.9879 9.95182 3.35406 9.97591 2.7392 9.85744C3.00151 10.6727 3.51202 11.3856 4.19937 11.8966C4.88671 12.4075 5.71652 12.6908 6.5728 12.707C5.72203 13.3758 4.74776 13.8702 3.70573 14.162C2.66369 14.4539 1.57435 14.5374 0.5 14.4078C2.37653 15.612 4.55994 16.2508 6.7896 16.2478" fill="white"/>
+                  <svg
+                    width="12"
+                    height="20"
+                    viewBox="0 0 12 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.4345 11.165L10.9854 7.57282H7.53884V5.24272C7.53884 4.25995 8.02039 3.30097 9.56408 3.30097H11.1311V0.242718C11.1311 0.242718 9.70898 0 8.34927 0C5.51068 0 3.65534 1.72039 3.65534 4.83495V7.57282H0.5V11.165H3.65534V19.849C4.94201 20.0503 6.25216 20.0503 7.53884 19.849V11.165H10.4345Z"
+                      fill="white"
+                    />
                   </svg>
                 </div>
                 <div class="is__ins-social-icons--icon">
-                  <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20.1044 10.23C20.1044 9.55027 20.0492 8.86685 19.9317 8.19812H10.4997V12.0488H15.9009C15.6768 13.2907 14.9566 14.3893 13.9021 15.0875V17.586H17.1245C19.0168 15.8444 20.1044 13.2724 20.1044 10.23Z" fill="#4285F4"/>
-                    <path d="M10.4996 20C13.1966 20 15.471 19.1145 17.1281 17.586L13.9057 15.0874C13.0092 15.6974 11.8518 16.0428 10.5033 16.0428C7.89454 16.0428 5.6826 14.2828 4.88895 11.9165H1.56369V14.4922C3.26123 17.8689 6.71876 20 10.4996 20Z" fill="#34A853"/>
-                    <path d="M4.8853 11.9165C4.46643 10.6746 4.46643 9.32976 4.8853 8.08784V5.51215H1.56371C0.145428 8.3377 0.145428 11.6666 1.56371 14.4922L4.8853 11.9165Z" fill="#FBBC04"/>
-                    <path d="M10.4996 3.95791C11.9253 3.93587 13.3031 4.47232 14.3356 5.45704L17.1906 2.60209C15.3828 0.904556 12.9835 -0.0287207 10.4996 0.000673865C6.71876 0.000673865 3.26123 2.13178 1.56369 5.51215L4.88527 8.08785C5.67525 5.71791 7.89087 3.95791 10.4996 3.95791Z" fill="#EA4335"/>
+                  <svg
+                    width="21"
+                    height="17"
+                    viewBox="0 0 21 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.7896 16.251C14.3368 16.251 18.4648 9.99824 18.4648 4.57584C18.4648 4.39824 18.4648 4.22144 18.4528 4.04544C19.2559 3.46457 19.9491 2.74534 20.5 1.92144C19.7512 2.25344 18.9567 2.47107 18.1432 2.56704C18.9998 2.05428 19.641 1.24769 19.9472 0.29744C19.1417 0.775447 18.2605 1.1123 17.3416 1.29344C16.7229 0.635588 15.9047 0.199975 15.0135 0.0540106C14.1223 -0.0919535 13.2078 0.0598691 12.4116 0.485985C11.6154 0.9121 10.9819 1.58875 10.609 2.41123C10.2361 3.23371 10.1446 4.15616 10.3488 5.03584C8.71741 4.95401 7.12146 4.53003 5.66455 3.79144C4.20763 3.05286 2.9223 2.01616 1.892 0.74864C1.36727 1.65197 1.20656 2.72133 1.44258 3.73899C1.67861 4.75665 2.29362 5.6461 3.1624 6.22624C2.50936 6.20711 1.87054 6.03094 1.3 5.71264V5.76464C1.30026 6.71202 1.62821 7.63014 2.22823 8.36328C2.82824 9.09642 3.66338 9.59945 4.592 9.78704C3.9879 9.95182 3.35406 9.97591 2.7392 9.85744C3.00151 10.6727 3.51202 11.3856 4.19937 11.8966C4.88671 12.4075 5.71652 12.6908 6.5728 12.707C5.72203 13.3758 4.74776 13.8702 3.70573 14.162C2.66369 14.4539 1.57435 14.5374 0.5 14.4078C2.37653 15.612 4.55994 16.2508 6.7896 16.2478"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="is__ins-social-icons--icon">
+                  <svg
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.1044 10.23C20.1044 9.55027 20.0492 8.86685 19.9317 8.19812H10.4997V12.0488H15.9009C15.6768 13.2907 14.9566 14.3893 13.9021 15.0875V17.586H17.1245C19.0168 15.8444 20.1044 13.2724 20.1044 10.23Z"
+                      fill="#4285F4"
+                    />
+                    <path
+                      d="M10.4996 20C13.1966 20 15.471 19.1145 17.1281 17.586L13.9057 15.0874C13.0092 15.6974 11.8518 16.0428 10.5033 16.0428C7.89454 16.0428 5.6826 14.2828 4.88895 11.9165H1.56369V14.4922C3.26123 17.8689 6.71876 20 10.4996 20Z"
+                      fill="#34A853"
+                    />
+                    <path
+                      d="M4.8853 11.9165C4.46643 10.6746 4.46643 9.32976 4.8853 8.08784V5.51215H1.56371C0.145428 8.3377 0.145428 11.6666 1.56371 14.4922L4.8853 11.9165Z"
+                      fill="#FBBC04"
+                    />
+                    <path
+                      d="M10.4996 3.95791C11.9253 3.93587 13.3031 4.47232 14.3356 5.45704L17.1906 2.60209C15.3828 0.904556 12.9835 -0.0287207 10.4996 0.000673865C6.71876 0.000673865 3.26123 2.13178 1.56369 5.51215L4.88527 8.08785C5.67525 5.71791 7.89087 3.95791 10.4996 3.95791Z"
+                      fill="#EA4335"
+                    />
                   </svg>
                 </div>
               </div>
               <div class="is__ins-card--inner-text">
                 <div class="is__ins-card--inner-text--box">
-                  <h4>Doug <br> Callander</h4>
+                  <h4>
+                    Doug <br />
+                    Callander
+                  </h4>
                   <p>Manager of Training</p>
                   <h6>Parasailing</h6>
                 </div>
@@ -214,27 +284,66 @@
               <div class="is__ins-card--inner-image"></div>
               <div class="is__ins-social-icons">
                 <div class="is__ins-social-icons--icon">
-                  <svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.4345 11.165L10.9854 7.57282H7.53884V5.24272C7.53884 4.25995 8.02039 3.30097 9.56408 3.30097H11.1311V0.242718C11.1311 0.242718 9.70898 0 8.34927 0C5.51068 0 3.65534 1.72039 3.65534 4.83495V7.57282H0.5V11.165H3.65534V19.849C4.94201 20.0503 6.25216 20.0503 7.53884 19.849V11.165H10.4345Z" fill="white"/>
-                  </svg>            
-                </div>
-                <div class="is__ins-social-icons--icon">
-                  <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.7896 16.251C14.3368 16.251 18.4648 9.99824 18.4648 4.57584C18.4648 4.39824 18.4648 4.22144 18.4528 4.04544C19.2559 3.46457 19.9491 2.74534 20.5 1.92144C19.7512 2.25344 18.9567 2.47107 18.1432 2.56704C18.9998 2.05428 19.641 1.24769 19.9472 0.29744C19.1417 0.775447 18.2605 1.1123 17.3416 1.29344C16.7229 0.635588 15.9047 0.199975 15.0135 0.0540106C14.1223 -0.0919535 13.2078 0.0598691 12.4116 0.485985C11.6154 0.9121 10.9819 1.58875 10.609 2.41123C10.2361 3.23371 10.1446 4.15616 10.3488 5.03584C8.71741 4.95401 7.12146 4.53003 5.66455 3.79144C4.20763 3.05286 2.9223 2.01616 1.892 0.74864C1.36727 1.65197 1.20656 2.72133 1.44258 3.73899C1.67861 4.75665 2.29362 5.6461 3.1624 6.22624C2.50936 6.20711 1.87054 6.03094 1.3 5.71264V5.76464C1.30026 6.71202 1.62821 7.63014 2.22823 8.36328C2.82824 9.09642 3.66338 9.59945 4.592 9.78704C3.9879 9.95182 3.35406 9.97591 2.7392 9.85744C3.00151 10.6727 3.51202 11.3856 4.19937 11.8966C4.88671 12.4075 5.71652 12.6908 6.5728 12.707C5.72203 13.3758 4.74776 13.8702 3.70573 14.162C2.66369 14.4539 1.57435 14.5374 0.5 14.4078C2.37653 15.612 4.55994 16.2508 6.7896 16.2478" fill="white"/>
+                  <svg
+                    width="12"
+                    height="20"
+                    viewBox="0 0 12 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.4345 11.165L10.9854 7.57282H7.53884V5.24272C7.53884 4.25995 8.02039 3.30097 9.56408 3.30097H11.1311V0.242718C11.1311 0.242718 9.70898 0 8.34927 0C5.51068 0 3.65534 1.72039 3.65534 4.83495V7.57282H0.5V11.165H3.65534V19.849C4.94201 20.0503 6.25216 20.0503 7.53884 19.849V11.165H10.4345Z"
+                      fill="white"
+                    />
                   </svg>
                 </div>
                 <div class="is__ins-social-icons--icon">
-                  <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M20.1044 10.23C20.1044 9.55027 20.0492 8.86685 19.9317 8.19812H10.4997V12.0488H15.9009C15.6768 13.2907 14.9566 14.3893 13.9021 15.0875V17.586H17.1245C19.0168 15.8444 20.1044 13.2724 20.1044 10.23Z" fill="#4285F4"/>
-                    <path d="M10.4996 20C13.1966 20 15.471 19.1145 17.1281 17.586L13.9057 15.0874C13.0092 15.6974 11.8518 16.0428 10.5033 16.0428C7.89454 16.0428 5.6826 14.2828 4.88895 11.9165H1.56369V14.4922C3.26123 17.8689 6.71876 20 10.4996 20Z" fill="#34A853"/>
-                    <path d="M4.8853 11.9165C4.46643 10.6746 4.46643 9.32976 4.8853 8.08784V5.51215H1.56371C0.145428 8.3377 0.145428 11.6666 1.56371 14.4922L4.8853 11.9165Z" fill="#FBBC04"/>
-                    <path d="M10.4996 3.95791C11.9253 3.93587 13.3031 4.47232 14.3356 5.45704L17.1906 2.60209C15.3828 0.904556 12.9835 -0.0287207 10.4996 0.000673865C6.71876 0.000673865 3.26123 2.13178 1.56369 5.51215L4.88527 8.08785C5.67525 5.71791 7.89087 3.95791 10.4996 3.95791Z" fill="#EA4335"/>
+                  <svg
+                    width="21"
+                    height="17"
+                    viewBox="0 0 21 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.7896 16.251C14.3368 16.251 18.4648 9.99824 18.4648 4.57584C18.4648 4.39824 18.4648 4.22144 18.4528 4.04544C19.2559 3.46457 19.9491 2.74534 20.5 1.92144C19.7512 2.25344 18.9567 2.47107 18.1432 2.56704C18.9998 2.05428 19.641 1.24769 19.9472 0.29744C19.1417 0.775447 18.2605 1.1123 17.3416 1.29344C16.7229 0.635588 15.9047 0.199975 15.0135 0.0540106C14.1223 -0.0919535 13.2078 0.0598691 12.4116 0.485985C11.6154 0.9121 10.9819 1.58875 10.609 2.41123C10.2361 3.23371 10.1446 4.15616 10.3488 5.03584C8.71741 4.95401 7.12146 4.53003 5.66455 3.79144C4.20763 3.05286 2.9223 2.01616 1.892 0.74864C1.36727 1.65197 1.20656 2.72133 1.44258 3.73899C1.67861 4.75665 2.29362 5.6461 3.1624 6.22624C2.50936 6.20711 1.87054 6.03094 1.3 5.71264V5.76464C1.30026 6.71202 1.62821 7.63014 2.22823 8.36328C2.82824 9.09642 3.66338 9.59945 4.592 9.78704C3.9879 9.95182 3.35406 9.97591 2.7392 9.85744C3.00151 10.6727 3.51202 11.3856 4.19937 11.8966C4.88671 12.4075 5.71652 12.6908 6.5728 12.707C5.72203 13.3758 4.74776 13.8702 3.70573 14.162C2.66369 14.4539 1.57435 14.5374 0.5 14.4078C2.37653 15.612 4.55994 16.2508 6.7896 16.2478"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="is__ins-social-icons--icon">
+                  <svg
+                    width="21"
+                    height="20"
+                    viewBox="0 0 21 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M20.1044 10.23C20.1044 9.55027 20.0492 8.86685 19.9317 8.19812H10.4997V12.0488H15.9009C15.6768 13.2907 14.9566 14.3893 13.9021 15.0875V17.586H17.1245C19.0168 15.8444 20.1044 13.2724 20.1044 10.23Z"
+                      fill="#4285F4"
+                    />
+                    <path
+                      d="M10.4996 20C13.1966 20 15.471 19.1145 17.1281 17.586L13.9057 15.0874C13.0092 15.6974 11.8518 16.0428 10.5033 16.0428C7.89454 16.0428 5.6826 14.2828 4.88895 11.9165H1.56369V14.4922C3.26123 17.8689 6.71876 20 10.4996 20Z"
+                      fill="#34A853"
+                    />
+                    <path
+                      d="M4.8853 11.9165C4.46643 10.6746 4.46643 9.32976 4.8853 8.08784V5.51215H1.56371C0.145428 8.3377 0.145428 11.6666 1.56371 14.4922L4.8853 11.9165Z"
+                      fill="#FBBC04"
+                    />
+                    <path
+                      d="M10.4996 3.95791C11.9253 3.93587 13.3031 4.47232 14.3356 5.45704L17.1906 2.60209C15.3828 0.904556 12.9835 -0.0287207 10.4996 0.000673865C6.71876 0.000673865 3.26123 2.13178 1.56369 5.51215L4.88527 8.08785C5.67525 5.71791 7.89087 3.95791 10.4996 3.95791Z"
+                      fill="#EA4335"
+                    />
                   </svg>
                 </div>
               </div>
               <div class="is__ins-card--inner-text">
                 <div class="is__ins-card--inner-text--box">
-                  <h4>Marry <br> Harris</h4>
+                  <h4>
+                    Marry <br />
+                    Harris
+                  </h4>
                   <p>Manager of Training</p>
                   <h6>Parasailing</h6>
                 </div>
@@ -270,62 +379,115 @@
         <div class="pc__cardList">
           <!-- Card -->
           <div class="pc__cardList__card">
-            <img src="/public/img/popular_courses/surfing.png"/>
+            <img src="/public/img/popular_courses/surfing.png" />
             <div class="pc__card__header">
               <span>SURFING</span>
               <button class="pc__cardList__card_btn">
-                <svg  width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="white" d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"/></svg>
+                <svg
+                  width="16px"
+                  height="16px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="white"
+                    d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"
+                  />
+                </svg>
               </button>
             </div>
             <div class="pc__card_body">
-              <p>We create a fun, relaxed and supportive surfing including technical skills.</p>
+              <p>
+                We create a fun, relaxed and supportive surfing including
+                technical skills.
+              </p>
             </div>
           </div>
           <!-- End Card -->
           <!-- Card -->
           <div class="pc__cardList__card">
-            <img src="/public/img/popular_courses/kayaking.png"/>
+            <img src="/public/img/popular_courses/kayaking.png" />
             <div class="pc__card__header">
               <span>KAYAKING</span>
               <button class="pc__cardList__card_btn">
-                <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="white" d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"/></svg>
+                <svg
+                  width="16px"
+                  height="16px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="white"
+                    d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"
+                  />
+                </svg>
               </button>
             </div>
             <div class="pc__card_body">
-              <p>We create a fun, relaxed and supportive surfing including technical skills.</p>
-            </div>
-          </div>
-          <!-- End Card -->
-                    <!-- Card -->
-          <div class="pc__cardList__card">
-            <img src="/public/img/popular_courses/surfing2.png"/>
-            <div class="pc__card__header">
-              <span>SURFING</span>
-              <button class="pc__cardList__card_btn">
-                <svg  width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="white" d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"/></svg>
-              </button>
-            </div>
-            <div class="pc__card_body">
-              <p>We create a fun, relaxed and supportive surfing including technical skills.</p>
+              <p>
+                We create a fun, relaxed and supportive surfing including
+                technical skills.
+              </p>
             </div>
           </div>
           <!-- End Card -->
           <!-- Card -->
           <div class="pc__cardList__card">
-            <img src="/public/img/popular_courses/kitesurfing.png"/>
+            <img src="/public/img/popular_courses/surfing2.png" />
             <div class="pc__card__header">
-              <span>KAYAKING</span>
+              <span>SURFING</span>
               <button class="pc__cardList__card_btn">
-                <svg width="16px" height="16px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="white" d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"/></svg>
+                <svg
+                  width="16px"
+                  height="16px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="white"
+                    d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"
+                  />
+                </svg>
               </button>
             </div>
             <div class="pc__card_body">
-              <p>We create a fun, relaxed and supportive surfing including technical skills.</p>
+              <p>
+                We create a fun, relaxed and supportive surfing including
+                technical skills.
+              </p>
             </div>
           </div>
           <!-- End Card -->
-          <button class="pc__card__see_more_btn">See More
-            <img src="public/right-arrow.svg"/>
+          <!-- Card -->
+          <div class="pc__cardList__card">
+            <img src="/public/img/popular_courses/kitesurfing.png" />
+            <div class="pc__card__header">
+              <span>KAYAKING</span>
+              <button class="pc__cardList__card_btn">
+                <svg
+                  width="16px"
+                  height="16px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="white"
+                    d="M240 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H176V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H384c17.7 0 32-14.3 32-32s-14.3-32-32-32H240V80z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="pc__card_body">
+              <p>
+                We create a fun, relaxed and supportive surfing including
+                technical skills.
+              </p>
+            </div>
+          </div>
+          <!-- End Card -->
+          <button class="pc__card__see_more_btn">
+            See More
+            <img src="public/right-arrow.svg" />
           </button>
         </div>
       </section>
@@ -409,122 +571,122 @@
       </section>
 
       <!-- Add End Section 4 -->
-      <footer class="footer">
-        <!-- Add Footer -->
-
-        <div class="footer__content">
-          <div class="footer__main">
-            <h4 class="footer__main-logo">RW</h4>
-            <p class="footer__main-text">
-              We create a fun, relaxed and supportive enviroment where we teach
-              the art od surfing including tecnicall skills
-            </p>
-          </div>
-          <div class="footer__subs">
-            <h3 class="footer__subs-title">Newsletter Subscription</h3>
-            <form class="footer__subs-form" action="">
-              <input
-                type="email"
-                class="footer__subs-form-input"
-                placeholder="Your email here"
-              />
-              <input
-                type="submit"
-                class="footer__subs-form-submit"
-                value="Suscribe"
-              />
-            </form>
-          </div>
-        </div>
-        <!-- Add Footer end -->
-        <!-- Atrributation  Attribution footer -->
-        <div class="attribution">
-          <div class="attribution--wrapper">
-            <h6 class="attribution__title">
-              Base on the Design by Ashik. Discord Group
-            </h6>
-            <div class="attribution__links">
-              <!-- facebook svg -->
-              <a
-                href="https://www.twitch.tv/matiasbaldanza"
-                target="_blank"
-                class="attribution__link"
-              >
-                <svg
-                  version="1.1"
-                  id="Layer_1"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                  x="0px"
-                  y="0px"
-                  viewBox="0 0 24 24"
-                  style="enable-background: new 0 0 24 24"
-                  xml:space="preserve"
-                >
-                  <style type="text/css">
-                    .st0 {
-                      fill: currentColor;
-                    }
-                  </style>
-                  <path
-                    class="st0"
-                    d="M11.6,4.7h1.7v5.1h-1.7L11.6,4.7z M16.3,4.7H18v5.1h-1.7V4.7z M6,0L1.7,4.3v15.4h5.1V24l4.3-4.3h3.4l7.7-7.7V0 H6z M20.6,11.1l-3.4,3.4h-3.4l-3,3v-3H6.9V1.7h13.7V11.1z"
-                  />
-                </svg>
-              </a>
-              <!-- twitter svg -->
-              <a
-                href="https://twitter.com/matiasbaldanza"
-                target="_blank"
-                class="attribution__link"
-              >
-                <svg
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title>Twitter</title>
-                  <style type="text/css">
-                    .st0 {
-                      fill: currentColor;
-                    }
-                  </style>
-                  <path
-                    class="st0"
-                    d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
-                  />
-                </svg>
-              </a>
-              <!-- twitch svg -->
-              <a
-                href="https://www.youtube.com/@matiasbaldanza_dev"
-                target="_blank"
-                class="attribution__link"
-              >
-                <svg
-                  role="img"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <title>YouTube</title>
-                  <style type="text/css">
-                    .st0 {
-                      fill: currentColor;
-                    }
-                  </style>
-                  <path
-                    class="st0"
-                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
-                  />
-                </svg>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Atrributation  Attribution footer end -->
-      </footer>
     </main>
+    <footer class="footer">
+      <!-- Add Footer -->
+
+      <div class="footer__content">
+        <div class="footer__main">
+          <h4 class="footer__main-logo">RW</h4>
+          <p class="footer__main-text">
+            We create a fun, relaxed and supportive enviroment where we teach
+            the art od surfing including tecnicall skills
+          </p>
+        </div>
+        <div class="footer__subs">
+          <h3 class="footer__subs-title">Newsletter Subscription</h3>
+          <form class="footer__subs-form" action="">
+            <input
+              type="email"
+              class="footer__subs-form-input"
+              placeholder="Your email here"
+            />
+            <input
+              type="submit"
+              class="footer__subs-form-submit"
+              value="Suscribe"
+            />
+          </form>
+        </div>
+      </div>
+      <!-- Add Footer end -->
+      <!-- Atrributation  Attribution footer -->
+      <div class="attribution">
+        <div class="attribution--wrapper">
+          <h6 class="attribution__title">
+            Base on the Design by Ashik. Discord Group
+          </h6>
+          <div class="attribution__links">
+            <!-- facebook svg -->
+            <a
+              href="https://www.twitch.tv/matiasbaldanza"
+              target="_blank"
+              class="attribution__link"
+            >
+              <svg
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 24 24"
+                style="enable-background: new 0 0 24 24"
+                xml:space="preserve"
+              >
+                <style type="text/css">
+                  .st0 {
+                    fill: currentColor;
+                  }
+                </style>
+                <path
+                  class="st0"
+                  d="M11.6,4.7h1.7v5.1h-1.7L11.6,4.7z M16.3,4.7H18v5.1h-1.7V4.7z M6,0L1.7,4.3v15.4h5.1V24l4.3-4.3h3.4l7.7-7.7V0 H6z M20.6,11.1l-3.4,3.4h-3.4l-3,3v-3H6.9V1.7h13.7V11.1z"
+                />
+              </svg>
+            </a>
+            <!-- twitter svg -->
+            <a
+              href="https://twitter.com/matiasbaldanza"
+              target="_blank"
+              class="attribution__link"
+            >
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Twitter</title>
+                <style type="text/css">
+                  .st0 {
+                    fill: currentColor;
+                  }
+                </style>
+                <path
+                  class="st0"
+                  d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                />
+              </svg>
+            </a>
+            <!-- twitch svg -->
+            <a
+              href="https://www.youtube.com/@matiasbaldanza_dev"
+              target="_blank"
+              class="attribution__link"
+            >
+              <svg
+                role="img"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>YouTube</title>
+                <style type="text/css">
+                  .st0 {
+                    fill: currentColor;
+                  }
+                </style>
+                <path
+                  class="st0"
+                  d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Atrributation  Attribution footer end -->
+    </footer>
     <script type="module" src="main.js"></script>
   </body>
 </html>

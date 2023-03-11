@@ -1,26 +1,18 @@
-/**
- * @type {HTMLElement}
- */
 const hamburger = document.querySelector('.hamburger');
-
-/**
- * @type {NodeList}
- */
 const navItem = document.querySelectorAll('.nav-item')
+const navList = document.getElementById('navList'); 
+const mobileMenu = document.querySelector('.mobileMenu');
+
+
+function handleClickLinks(e){
+  // check if click was on a link
+  if(e.target.tagName === 'A'){
+    toggleHamburgerMenu()}
+  }
+
+function toggleHamburgerMenu () {
+  mobileMenu.classList.toggle('active');
+}
 
 hamburger.addEventListener('click', toggleHamburgerMenu);
-
-
-Array.from(navItem).forEach(e => e.addEventListener('click', () => {
-  const navBar = document.querySelector('.nav-bar');
-  navBar.classList.toggle('active');
-}));
-
-/**
- * @function toggleHamburgerMenu
- * @description Toggles the class "active" on the element with the class "nav-bar"
-*/
-function toggleHamburgerMenu () {
-  const navBar = document.querySelector('.nav-bar');
-  navBar.classList.toggle('active');
-}
+navList.addEventListener('click', handleClickLinks)
